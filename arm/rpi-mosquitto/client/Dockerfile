@@ -1,5 +1,7 @@
 FROM resin/rpi-raspbian
 
+MAINTAINER Federico Gori <federico.gori@gmail.com>
+
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
     nano \
