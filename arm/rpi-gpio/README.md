@@ -1,2 +1,2 @@
-# rpi-mosquitto
-Mosquitto Client Raspberry pi docker image
+# rpi-gpio
+Raspberry pi WiringPi library docker image
