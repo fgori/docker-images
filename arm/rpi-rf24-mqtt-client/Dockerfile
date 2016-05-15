@@ -6,7 +6,8 @@ RUN apt-get update && \
     apt-get install -y --no-install-recommends \
         build-essential \
         git \
-        libssl-dev && \
+        libssl-dev \
+        ca-certificates && \
 
     cd /home && \
     git clone https://github.com/eclipse/paho.mqtt.c.git && \
@@ -19,7 +20,8 @@ RUN apt-get update && \
     apt-get clean && \
     apt-get purge -y build-essential \
                      git \
-                     libssl-dev && \
+                     libssl-dev \
+                     ca-certificates && \
     apt-get autoremove && \
     rm -rf /var/lib/apt/lists/*
 
