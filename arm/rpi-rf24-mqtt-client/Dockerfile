@@ -1,4 +1,4 @@
-FROM fgori/rpi-rf24
+FROM fgori/rpi-rf24:1.0
 
 MAINTAINER Federico Gori <federico.gori@gmail.com>
 

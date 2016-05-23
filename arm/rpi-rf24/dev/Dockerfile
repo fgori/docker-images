@@ -1,4 +1,4 @@
-FROM resin/rpi-raspbian
+FROM fgori/rpi-dev:1.0
 
 MAINTAINER Federico Gori <federico.gori@gmail.com>
 

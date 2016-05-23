@@ -1,4 +1,4 @@
-FROM resin/rpi-raspbian
+FROM resin/rpi-raspbian:jessie
 
 MAINTAINER Federico Gori <federico.gori@gmail.com>
 
