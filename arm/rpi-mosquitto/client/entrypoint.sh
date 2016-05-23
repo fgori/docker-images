@@ -6,7 +6,14 @@ function ctrl_c() {
 	exit 0
 }
 
-while true
-do
-	sleep 1
-done
+echo "Command: ${@}"
+
+if [ -z "$1" ]
+then
+	while true
+	do
+		sleep 1
+	done
+else 
+	"${@}"
+fi
