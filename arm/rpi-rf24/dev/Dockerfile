@@ -3,11 +3,6 @@ FROM fgori/rpi-dev:1.0
 MAINTAINER Federico Gori <federico.gori@gmail.com>
 
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends \
-        nano \
-        build-essential \
-        git \
-        ca-certificates && \
 
     mkdir /home/rf24libs && \
     cd /home/rf24libs && \
